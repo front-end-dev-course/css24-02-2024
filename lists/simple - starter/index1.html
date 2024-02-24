@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <title>Document</title>
+    <style>
+      * {
+        box-sizing: border-box;
+        margin: 0;
+      }
+      ul {
+        /*   list-style-image: linear-gradient(to left bottom, pink, teal); */
+        /* list-style: url(Check.png); */
+        /* list-style-type: "🍕"; */
+        list-style: none;
+      }
+      /* ::marker {
+        content: url(Check.png);
+      } */
+      li {
+        display: flex;
+      }
+      li::before {
+        content: url(Check.png);
+        margin-right: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- <ul>
+      <li>
+        <i class="bx bx-check"></i>
+        <div>
+          <h3>Invite team members</h3>
+          <p>
+            Tempor tellus in aliquet eu et sit nulla tellus. Suspendisse est,
+            molestie blandit quis ac. Lacus.
+          </p>
+        </div>
+      </li>
+    </ul> -->
+    <main>
+      <div class="wrapper">
+        <article class="flow">
+          <ul>
+            <li>oat milk</li>
+            <li>rhubarb</li>
+            <li>cereal</li>
+            <li>pie crust</li>
+          </ul>
+        </article>
+      </div>
+    </main>
+  </body>
+</html>

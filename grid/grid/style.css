@@ -1,0 +1,23 @@
+body {
+  margin: 5em 0 0 0;
+  padding: 0;
+  line-height: 1.6;
+  word-spacing: 1.4px;
+  font-family: "Roboto", sans-serif;
+  color: #0f172a;
+  background-color: #f1f5f9;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  border: 5px solid #0f172a;
+}
+
+.item {
+  padding: 0.5em;
+  background-color: #c7d2fe;
+  font-weight: 700;
+  color: #312e81;
+  border: 10px solid #6366f1;
+}

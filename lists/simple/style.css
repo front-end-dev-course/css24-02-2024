@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+
+/*=============== BASE ===============*/
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Inter", sans-serif;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #6b7280;
+}
+
+/*=============== LAYOUT ===============*/
+.features__container {
+  margin-block: 100px;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  gap: 60px;
+}
+.list__container {
+  display: grid;
+  grid-template-columns: repeat(4, 280px);
+  /* grid-template-columns: repeat(auto-fit, minmax(244px, 1fr)); */
+  grid-gap: 48px 32px;
+  /* justify-content: center;
+  align-content: center; */
+}
+
+.title__container {
+  text-align: center;
+  max-width: 768px;
+}
+/*=============== COMPONENTS ===============*/
+ul {
+  list-style: none;
+}
+
+li::before {
+  content: url("Check.png");
+}
+
+li {
+  display: flex;
+  gap: 12px;
+}
+
+h2 {
+  font-size: 1.875rem;
+  font-weight: 800;
+  color: #111827;
+}
+h3 {
+  margin-bottom: 8px;
+  font-size: 1.125rem;
+  font-weight: 500;
+  color: #111927;
+}
+
+/* Pseudo-elements in CSS allow you to style certain parts of an element without the need for additional HTML markup. They provide a way to apply styles to specific parts of an element's content or structure, such as adding decorative elements or modifying the appearance of text. */
+/* ::before: Inserts content before the content of the selected element. */
+/* ::after: Inserts content after the content of the selected element. */
